@@ -26,7 +26,7 @@ pipeline {
                 sh '''
                 pkill -f paylite.jar || true
                 cp target/paylite-app-*.jar ${APP_DIR}/${JAR_NAME}
-                nohup java -jar ${APP_DIR}/${JAR_NAME} \
+                java -jar ${APP_DIR}/${JAR_NAME} \
                   > ${APP_DIR}/paylite.log 2>&1 &
                 '''
             }
