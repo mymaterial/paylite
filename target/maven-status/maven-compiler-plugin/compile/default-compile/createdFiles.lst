@@ -1,0 +1,8 @@
+com\paylite\controller\AuthController.class
+com\paylite\repository\UserRepository.class
+com\paylite\service\TransferService.class
+com\paylite\controller\TransferController.class
+com\paylite\controller\ProfileController.class
+com\paylite\controller\HomeController.class
+com\paylite\PayliteApplication.class
+com\paylite\controller\RootController.class
